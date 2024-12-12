@@ -1,3 +1,5 @@
+//UNCOMMENT EVERYTHING BELOW WHEN YOU HAVE COMPLETED THE PREVIOUS 3 PARTS.
+
 import java.util.ArrayList;
 public class VenMac{
     ArrayList<Drink> stock;
@@ -7,7 +9,7 @@ public class VenMac{
     //The constructor for a venMach is  below. This code is ran everytime a venMachine is created.
     public VenMac(){
         stock = new ArrayList<Drink>();
-        int ranQuant =(int)(Math.random()*6+1);
+        int ranQuant =(int)(Math.random()*3+1);
         
         for(int i=0;i<(int)(Math.random()*4+1);i++){
             double randPrice = (Math.random()*4+1);
@@ -16,8 +18,16 @@ public class VenMac{
                 stock.add(new Drink(drinkNames[(int)(Math.random()*drinkNames.length)],roundedPrice,true,true));
             }
         }
+        
+        listContents();
     }
 
+
+    public void listContents(){
+        for(int i=0;i<stock.size();i++){
+            System.out.println("Item #: "+ i +" Item name: "+ stock.get(i).getName()+ " Price: "+stock.get(i).getPrice());
+        }
+    }
 
 
 }
