@@ -23,10 +23,8 @@ public class Drink{
     
     
     
-    
-    
-    
-    // Write the method emptyDrink which prints out tthe message: NameOfDrink "has been drank" and then changes the attribute to be empty
+
+    // Write the method emptyDrink which prints out the message: NameOfDrink "has been drank" and then changes the attribute to be empty
     
       
     }

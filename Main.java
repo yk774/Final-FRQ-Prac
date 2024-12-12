@@ -1,4 +1,4 @@
-class Main {
+public class Main {
     public static void main(String[] args) {
   //Create 3 drink objects that cost less than $5
   
@@ -33,11 +33,14 @@ class Main {
   }
   
   
-  //There is a sale on drinks with long names. Write a method that will change the price of all items with a name longer than 7 characters to $1.50; You will need to use a setter.
+  //There is a sale on drinks with long names. Write a method that will change the price of all items with a name longer than 7 characters to half off of their original price; You will need to use a setter.
   public static void longNameSale(Drink[] arr){
   
   
   }
     
-  
+  //Write a method called drinkAll() that will go through an array and drink all of the drinks we have in it.
+  public static void drinkAll(Drink[] arr){
+    
+  }
   }
