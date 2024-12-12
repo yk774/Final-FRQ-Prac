@@ -4,14 +4,14 @@ public class Drink{
     /* Give it attirbutes:
     name
     price with decimals
-    does it have ice or not
+    if it's cold or not
     if it's empty
     */
     
     
     
     //Write the constructor for the Drink class. (THIS IS WHAT CREATES an object when its run in the main) 
-      
+    //the order for the parameters must be (String, double, boolean, boolean)
     //After creating a constructor test your code in the main to see if you can create some drink.
     
     

@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+  //Practicing with Arrays Section//
+
+  
   //Create 3 drink objects that cost less than $5
   
   //***TEST YOUR CODE BY PRINTING THE NAME OF YOUR DRINK TO MAKE SURE IT WORKS***//
@@ -22,7 +25,13 @@ public class Main {
   
   //test your longNameSale method
   //Try to print the price before you use the method and after to see if it worked.
+
+  //test your drinkAll Method here
   
+
+  //----------------------------------------------------------
+
+
     }
     
   //Write a method cheapItems that will return go through an array of drinks and return a String that lists the number of items that cost less than $3
@@ -41,6 +50,6 @@ public class Main {
     
   //Write a method called drinkAll() that will go through an array and drink all of the drinks we have in it.
   public static void drinkAll(Drink[] arr){
-    
+
   }
   }
