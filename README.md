@@ -11,9 +11,9 @@ CANNOT BE COMPLETED until PART 1 is done properly
 Part 4: Examine the VenMachine Class. Complete the comments in each line and answer the questions in the comments.
         You should understand what the ranges of the Math.random do
         
-        Then go back to your Main.java and uncomment the line of code that will create your VenMachine Object.
+ Then go back to your Main.java and uncomment the line of code that will create your VenMachine Object.
 
-        See if that helps you with indentifying what the class does.
+ See if that helps you with indentifying what the class does.
 
-        Finally complete the other methods in the VenMachine Class and test them in the Main.
+Finally complete the other methods in the VenMachine Class and test them in the Main.
 
