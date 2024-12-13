@@ -42,8 +42,12 @@
 //         return null;// Change this when you write the method.
 //     }
 
-//     //checkItem
-//     //Write a method called checkItem that takes in an  int parameter and will tell you just the price and name of the int parameter given.
-//     //if the index is out of bounds, just say error.
+//     //twoFor1
+        //generate a random index within the arrayList of drinks. then return a String that contains the name of a random drink and the one to the right of it in the array.
+        //Make sure your method does not go out of bounds. It shouldd return a string for example: "You got Coke and Mountain Dew!"
+
+        // public String twoFor1(){
+        //     return null;//Change this when you write your method.
+        // }
 
 // }
