@@ -1,33 +1,49 @@
-//UNCOMMENT EVERYTHING BELOW WHEN YOU HAVE COMPLETED THE PREVIOUS 3 PARTS.
+//UNCOMMENT EVERYTHING BELOW WHEN 
+//YOU HAVE COMPLETED THE PREVIOUS 3 PARTS.
 
-import java.util.ArrayList;
-public class VenMac{
-    ArrayList<Drink> stock;
 
-    String[] drinkNames = {"Coke","Diet Coke","Water","Mountain Dew","Iced Tea"};
+//PART 4
+// import java.util.Scanner;
+// import java.util.ArrayList;
+// public class VenMac{
+//     ArrayList<Drink> stock;
 
-    //The constructor for a venMach is  below. This code is ran everytime a venMachine is created.
-    public VenMac(){
-        stock = new ArrayList<Drink>();
-        int ranQuant =(int)(Math.random()*3+1);
+//     String[] drinkNames = {"Coke","Diet Coke","Water","Mountain Dew","Iced Tea"}; //What is the purpose here?
+
+//     //The constructor for a venMach is  below. This code is ran everytime a venMachine is created.
+//     public VenMac(){ //What happens whenever a vending machine object is created.
+//         stock = new ArrayList<Drink>();
+    
+//         for(int i=0;i<(int)(Math.random()*4+1);i++){ //What is the possible range of values for i?
+//             double randPrice = (Math.random()*4+1);
+//             double roundedPrice = (double)((int)(randPrice*100))/100; //What is this piece of code doing.
+//             int randIndex  = (int)(Math.random()*drinkNames.length); //What is the purpose of this section?
+//             int ranQuant =(int)(Math.random()*3+1); //What is the purpose of this variable?
+//             for(int j=0;j<ranQuant;j++){
+//                 stock.add(new Drink(drinkNames[randIndex],roundedPrice,true,true)); //What happens here?
+//             }
+//         }
         
-        for(int i=0;i<(int)(Math.random()*4+1);i++){
-            double randPrice = (Math.random()*4+1);
-            double roundedPrice = (double)((int)(randPrice*100))/100;
-            for(int j=0;j<ranQuant;j++){
-                stock.add(new Drink(drinkNames[(int)(Math.random()*drinkNames.length)],roundedPrice,true,true));
-            }
-        }
-        
-        listContents();
-    }
+//         listContents(); //What does this method do?
+//     }
 
 
-    public void listContents(){
-        for(int i=0;i<stock.size();i++){
-            System.out.println("Item #: "+ i +" Item name: "+ stock.get(i).getName()+ " Price: "+stock.get(i).getPrice());
-        }
-    }
+//     public void listContents(){
+//         for(int i=0;i<stock.size();i++){
+//             System.out.println("|Item #: "+ i +"| Item name: "+ stock.get(i).getName()+ "| Price: "+stock.get(i).getPrice());
+//         }
+//     }
 
+//     //Part 4
+//     //this method should return a random drink from the arrayList for the user. and remove it from the vending machine. 
+//     //Challenge, prompt the user to input a price and  give them change  if they have enough, and reject them if theydont.
+//     public Drink getDrink(){
+    
+//         return null;// Change this when you write the method.
+//     }
 
-}
+//     //checkItem
+//     //Write a method called checkItem that takes in an  int parameter and will tell you just the price and name of the int parameter given.
+//     //if the index is out of bounds, just say error.
+
+// }

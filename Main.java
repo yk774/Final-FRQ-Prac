@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
   //Practicing with Arrays Section//
+  //PART 2
 
-  
+
   //Create 3 drink objects that cost less than $5
   
   //***TEST YOUR CODE BY PRINTING THE NAME OF YOUR DRINK TO MAKE SURE IT WORKS***//
@@ -15,9 +16,8 @@ public class Main {
   
   
   
-      
+//PART 3
   //You will need to write 2 method below
-  //------------------------
   //Test your method calls here.
   
   //test your cheapItems method
@@ -30,10 +30,16 @@ public class Main {
   
 
   //----------------------------------------------------------
+    //PART 4 // UNCOMMENT THIS ONCE YOU FINISH THE OTHER PARTS.
+    //VenMac test = new VenMac();
+
 
 
     }
     
+
+    
+    //Part 3
   //Write a method cheapItems that will return go through an array of drinks and return a String that lists the number of items that cost less than $3
   // For example " The cheap drinks are: Fountain drinks, Snapple, green Tea "
   public static  String cheapItems(Drink[] arr){

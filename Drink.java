@@ -1,11 +1,12 @@
 public class Drink{
+  //PART 1
     //Create attributes for the drink class here.
       
     /* Give it attirbutes:
     name
     price with decimals
-    if it's cold or not
-    if it's empty
+    if it's cold or not (isCold)
+    if it's empty (isEmpty)
     */
     
     
